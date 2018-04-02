@@ -1,0 +1,17 @@
+C:\Users\Tea\Desktop\myNetstatView\myNetstatView\bin\Release\myNetstatView.exe.config
+C:\Users\Tea\Desktop\myNetstatView\myNetstatView\bin\Release\myNetstatView.exe
+C:\Users\Tea\Desktop\myNetstatView\myNetstatView\bin\Release\myNetstatView.pdb
+C:\Users\Tea\Desktop\myNetstatView\myNetstatView\obj\Release\myNetstatView.myNetstatView.resources
+C:\Users\Tea\Desktop\myNetstatView\myNetstatView\obj\Release\myNetstatView.Properties.Resources.resources
+C:\Users\Tea\Desktop\myNetstatView\myNetstatView\obj\Release\myNetstatView.csproj.GenerateResource.Cache
+C:\Users\Tea\Desktop\myNetstatView\myNetstatView\obj\Release\myNetstatView.exe
+C:\Users\Tea\Desktop\myNetstatView\myNetstatView\obj\Release\myNetstatView.pdb
+C:\Users\Tea\Documents\Visual Studio 2012\Projects\myNetstatView\myNetstatView\bin\Release\myNetstatView.exe.config
+C:\Users\Tea\Documents\Visual Studio 2012\Projects\myNetstatView\myNetstatView\obj\Release\myNetstatView.exe
+C:\Users\Tea\Documents\Visual Studio 2012\Projects\myNetstatView\myNetstatView\obj\Release\myNetstatView.pdb
+C:\Users\Tea\Documents\Visual Studio 2012\Projects\myNetstatView\myNetstatView\bin\Release\myNetstatView.exe
+C:\Users\Tea\Documents\Visual Studio 2012\Projects\myNetstatView\myNetstatView\bin\Release\myNetstatView.pdb
+C:\Users\Tea\Documents\Visual Studio 2012\Projects\myNetstatView\myNetstatView\obj\Release\myNetstatView.myNetstatView.resources
+C:\Users\Tea\Documents\Visual Studio 2012\Projects\myNetstatView\myNetstatView\obj\Release\myNetstatView.Properties.Resources.resources
+C:\Users\Tea\Documents\Visual Studio 2012\Projects\myNetstatView\myNetstatView\obj\Release\myNetstatView.csproj.GenerateResource.Cache
+C:\Users\Tea\Documents\Visual Studio 2012\Projects\myNetstatView\myNetstatView\obj\Release\myNetstatView.csprojResolveAssemblyReference.cache
