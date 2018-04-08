@@ -109,17 +109,23 @@ namespace myNetstatView
                 var udpResult = NetProcessAPI.GetAllUdpConnections();
                 foreach (var pid in tcpResult)
                 {
-                    tcpCountInt++;
-                    var pid_icon = ProcessAPI.GetIcon(pid.owningPid, true);
-                    var pid_name = ProcessAPI.GetProcessNameByPID(pid.owningPid);
-                    pidInfoData.Rows.Add(pid_icon, pid_name, pid.owningPid.ToString(), "TCP", pid.LocalAddress.ToString(), pid.LocalPort.ToString(), pid.RemoteAddress.ToString(), pid.RemotePort.ToString());
+                    if (pid.owningPid > 0)
+                    {
+                        tcpCountInt++;
+                        var pid_icon = ProcessAPI.GetIcon(pid.owningPid, true);
+                        var pid_name = ProcessAPI.GetProcessNameByPID(pid.owningPid);
+                        pidInfoData.Rows.Add(pid_icon, pid_name, pid.owningPid.ToString(), "TCP", pid.LocalAddress.ToString(), pid.LocalPort.ToString(), pid.RemoteAddress.ToString(), pid.RemotePort.ToString());
+                    }
                 }
                 foreach (var pid in udpResult)
                 {
-                    udpCountInt++;
-                    var pid_icon = ProcessAPI.GetIcon(pid.owningPid, true);
-                    var pid_name = ProcessAPI.GetProcessNameByPID(pid.owningPid);
-                    pidInfoData.Rows.Add(pid_icon, pid_name, pid.owningPid.ToString(), "UDP", pid.LocalAddress.ToString(), pid.LocalPort.ToString(), "", "");
+                    if (pid.owningPid > 0)
+                    {
+                        udpCountInt++;
+                        var pid_icon = ProcessAPI.GetIcon(pid.owningPid, true);
+                        var pid_name = ProcessAPI.GetProcessNameByPID(pid.owningPid);
+                        pidInfoData.Rows.Add(pid_icon, pid_name, pid.owningPid.ToString(), "UDP", pid.LocalAddress.ToString(), pid.LocalPort.ToString(), "", "");
+                    }
                 }
                 tcpCount.Text = tcpCountInt.ToString();
                 udpCount.Text = udpCountInt.ToString();
